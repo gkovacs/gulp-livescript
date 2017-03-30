@@ -1,7 +1,7 @@
 "use strict";
 require! {
   through2
-  livescript
+  "livescript-async": livescript
   path: Path
   "gulp-util": gutil
   "vinyl-sourcemaps-apply": applySourceMap

@@ -1,5 +1,5 @@
 {
-  "name": "gulp-livescript",
+  "name": "gulp-livescript-async",
   "version": "3.0.1",
   "description": "Compile livescript to JavaScript for Gulp",
   "main": "lib/index.js",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tomchentw/gulp-livescript"
+    "url": "https://github.com/gkovacs/gulp-livescript-async"
   },
   "keywords": [
     "livescript",
@@ -32,23 +32,23 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tomchentw/gulp-livescript/issues"
+    "url": "https://github.com/gkovacs/gulp-livescript-async/issues"
   },
-  "homepage": "https://github.com/tomchentw/gulp-livescript",
+  "homepage": "https://github.com/gkovacs/gulp-livescript-async",
   "dependencies": {
     "gulp-util": "^3.0.1",
     "through2": "^2.0.0",
     "vinyl-sourcemaps-apply": "^0.2.0"
   },
   "peerDependencies": {
-    "livescript": "^1.4.0"
+    "livescript-async": "^1.5.1"
   },
   "devDependencies": {
     "codeclimate-test-reporter": "^0.3.1",
     "cross-env": "^1.0.8",
     "gulp-sourcemaps": "^1.5.1",
     "istanbul": "^0.4.1",
-    "livescript": "^1.4.0",
+    "livescript-async": "^1.5.1",
     "mocha": "^2.0.1",
     "mocha-jscs": "^5.0.1",
     "mocha-jshint": "^2.2.5",
